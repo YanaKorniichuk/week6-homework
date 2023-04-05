@@ -1,0 +1,20 @@
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  font-family: "Tilt Prism", cursive;
+  background-image: url("https://images.pexels.com/photos/3548379/pexels-photo-3548379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+
+.tue,
+.wed,
+.thu,
+.fri,
+.sat,
+.sun {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
