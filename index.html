@@ -20,15 +20,25 @@
   </head>
   <body>
     <div class="container">
-      <form id="search-form">
-        <input type="text" id="search-input" placeholder="Enter the city" />
-        <input type="submit" value="Search" />
-      </form>
-      <p></p>
-      <h3>Time</h3>
-      <div class="Tem">Temperature</div>
-      <i class="fa-solid fa-clouds"></i>
-
+      <div class="row">
+        <div class="col">
+          <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter the city" />
+            <input type="submit" value="Search" />
+          </form>
+          <p></p>
+          <h3>Time</h3>
+          <div class="Tem">Temperature</div>
+          <div class="clear">Clear</div>
+        </div>
+        <div class="col">
+          <ul>
+            <li>Precipitation:</li>
+            <li>Humidity:</li>
+            <li>Wind:</li>
+          </ul>
+        </div>
+      </div>
       <div class="tue">
         <button type="button" class="btn btn-secondary">Tuesday</button>
       </div>
