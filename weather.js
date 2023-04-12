@@ -52,7 +52,6 @@ function searchCity(city) {
   axios.get(apiUrl).then(showTemp);
 }
 
-// Requires adding a Current Location Button
 function getCurrentLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(showPosition);
