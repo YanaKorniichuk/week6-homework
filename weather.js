@@ -42,7 +42,7 @@ function showTemp(response) {
   p.innerHTML = response.data.name;
 
   let temperature = Math.round(response.data.main.temp);
-  let Tem = document.querySelector("#Tem");
+  let Tem = document.querySelector(".Tem");
   Tem.innerHTML = `${temperature}`;
 }
 
