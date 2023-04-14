@@ -45,6 +45,8 @@ function showTemp(response) {
   Tem.innerHTML = `${temperature}`;
   let description = document.querySelector(".clear");
   description.innerHTML = response.data.weather[0].description;
+  let humidity = document.querySelector("#humidity");
+  humidity.innerHTML = response.data.main.humidity;
 }
 
 function searchCity(city) {
