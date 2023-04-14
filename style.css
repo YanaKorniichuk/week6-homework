@@ -24,3 +24,6 @@ footer {
 li {
   list-style: none;
 }
+.clear {
+  text-transform: capitalize;
+}
