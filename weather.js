@@ -66,3 +66,4 @@ function getCurrentLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(showPosition);
 }
+searchCity("Kyiv");
