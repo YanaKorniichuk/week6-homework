@@ -93,6 +93,7 @@ fahrenheit.addEventListener("click", showFahrenheitTemp);
 
 let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", showCelsiusTemp);
+
 function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
 
