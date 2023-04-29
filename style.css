@@ -8,16 +8,6 @@
   background-size: cover;
 }
 
-.tue,
-.wed,
-.thu,
-.fri,
-.sat,
-.sun {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
-}
 footer {
   text-align: center;
 }
