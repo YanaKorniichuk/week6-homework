@@ -17,6 +17,10 @@ li {
 #clear {
   text-transform: capitalize;
 }
+.weather-forecast {
+  text-align: center;
+  margin-top: 40px;
+}
 .temp-field,
 #celsius,
 #fahrenheit {
