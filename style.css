@@ -16,6 +16,7 @@ li {
 }
 #clear {
   text-transform: capitalize;
+  margin-top: 40px;
 }
 .weather-forecast {
   text-align: center;
