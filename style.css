@@ -17,3 +17,8 @@ li {
 #clear {
   text-transform: capitalize;
 }
+.temp-field,
+#celsius,
+#fahrenheit {
+  color: white;
+}
